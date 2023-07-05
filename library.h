@@ -1,11 +1,11 @@
 #pragma once
 
-#include <pf_meta_plugin_template.hpp>
+#include <speculo_plugin_template.hpp>
 #include <codegen/CodeGenerator.hpp>
 
 extern "C" {
 
-META_PLUGIN_EXPORT pf::meta_gen::CodeGenerator *create();
+META_PLUGIN_EXPORT speculo::gen::CodeGenerator *create();
 
-META_PLUGIN_EXPORT void destroy(pf::meta_gen::CodeGenerator *ptr);
+META_PLUGIN_EXPORT void destroy(speculo::gen::CodeGenerator *ptr);
 }

@@ -1,0 +1,3 @@
+[submodule "Speculo"]
+	path = Speculo
+	url = https://github.com/PetrFlajsingr/Speculo.git
